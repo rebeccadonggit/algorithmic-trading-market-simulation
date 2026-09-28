@@ -196,8 +196,3 @@ The simulation engine is based on the **Bristol Stock Exchange (BSE)** developed
 Dave Cliff and contributors. The original MIT license notice is preserved in
 `src/bse.py`. See `THIRD_PARTY_NOTICES.md`.
 
-## Portfolio Cleanup Notes
-
-This public-ready version intentionally excludes exploratory branches and abandoned
-coursework variants such as MMM02T, momentum/imbalance experiments, no-fee tuning,
-duplicate runners, and pre-modification backups.
