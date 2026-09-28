@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+.env.*
+secrets.*
+config.local.*
+
+# Data
+data/*.csv
+!data/README.md
+
+# Generated BSE intermediate files
+results/offset_file_raw.csv
+results/*_blotters.csv
+results/*_strats.csv
+results/*_LOB_frames.csv
+results/*_avg_balance.csv
+results/*_tape.csv
+
+# Generated result tables
+results/*.csv
+
+# Logs
+*.log
